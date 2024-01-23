@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calculator.css">
+    <script src="js/calculator.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <section class="content">
+        <form action="" method="get" class="calculator">
+            <section class="inputs">
+                <input type="number" name="number1" id="number" required />
+                <input type="number" name="number2" id="number" required />
+            </section>
+            <section class="operation-type">
+                <input type="radio" id="add" name="operation" value="Add">
+                <label for="add">Add</label><br>
+                <input type="radio" id="subtract" name="operation" value="Subtract">
+                <label for="subtract">Subtract</label><br>
+                <input type="radio" id="multiply" name="operation" value="Multiply">
+                <label for="multiply">Multiply</label>
+                <input type="radio" id="divide" name="operation" value="Divide">
+                <label for="divide">Divide</label>
+            </section>
+            <input type="submit" value="Calculate" />
+        </form>
+    </section>
+
+</body>
+
+</html>
