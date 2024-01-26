@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/calculator.css">
-    <script src="js/calculator.js"></script>
+
     <title>Calculator</title>
 </head>
 
@@ -14,8 +14,8 @@
     <section class="content">
         <form action="" method="get" class="calculator">
             <section class="inputs">
-                <input type="number" name="number1" id="number" required />
-                <input type="number" name="number2" id="number" required />
+                <input type="number" name="number1" id="number1" required />
+                <input type="number" name="number2" id="number2" required />
             </section>
             <section class="operation-type">
                 <input type="radio" id="add" name="operation" value="Add">
@@ -27,10 +27,11 @@
                 <input type="radio" id="divide" name="operation" value="Divide">
                 <label for="divide">Divide</label>
             </section>
-            <input type="submit" value="Calculate" />
+            <input type="button" id="button" value="Calculate" />
         </form>
+        <div id="answer"></div>
     </section>
-
+    <script src="js/calculator.js"></script>
 </body>
 
 </html>
